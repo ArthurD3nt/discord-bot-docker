@@ -1,0 +1,22 @@
+{
+  "name": "dicord-bot-docker",
+  "version": "1.0.0",
+  "description": "A docker container for discord.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArthurD3nt/dicord-bot-docker.git"
+  },
+  "author": "ArthurD3nt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArthurD3nt/dicord-bot-docker/issues"
+  },
+  "homepage": "https://github.com/ArthurD3nt/dicord-bot-docker#readme",
+  "dependencies": {
+    "discord.js": "^12.1.1"
+  }
+}
