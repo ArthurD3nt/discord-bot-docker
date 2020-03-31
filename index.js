@@ -1,8 +1,8 @@
 const discord = require("discord.js"); //implements discord.js dependency
 const bot = new discord.Client(); //adds the bot
-const config = require("./config.js"); //bot prefix and token
-const token = config.token ;  //bot token
-const prefix = config.prefix ;  //prefix
+// const config = require("./config.js"); //bot prefix and token
+const { token } = require("./config.js");   //bot token
+const { prefix } = require("./config.js");  //prefix
 
 console.log(token);
 console.log(prefix);
