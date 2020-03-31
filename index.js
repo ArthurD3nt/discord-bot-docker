@@ -1,7 +1,11 @@
 const discord = require("discord.js"); //implements discord.js dependency
-const client = new discord.Client(); //adds the bot
-const { token } = require("./settings"); //bot token
-const { prefix } = require("./settings"); //prefix required to summon the bot
+const bot = new discord.Client(); //adds the bot
+const config = require("./config.js"); //bot prefix and token
+const token = config.token ;  //bot token
+const prefix = config.prefix ;  //prefix
+
+console.log(token);
+console.log(prefix);
 
 //contoll function
 bot.on("ready", () => {
@@ -27,10 +31,13 @@ bot.on("message", message => {
     //split function to define when the bot is summoned
     let args = message.content.substring(prefix.length).split(" ");
     switch (args[0]) {
-
+        //ping command
+        case "ping":
+            message.reply("pong!");
+        break;
     
     //bot commands that starts with the prefix
-    //you can find many examples on github, just search for discord.js examples
+    //you can find many examples on github, just google discord.js examples
 
     }
 });
