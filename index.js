@@ -11,7 +11,7 @@ console.log(prefix);
 bot.on("ready", () => {
     console.log("It works!");
   });
-  
+
 //bot joined
 bot.on("guildCreate", guild => {
     // This event triggers when the bot joins a guild.
