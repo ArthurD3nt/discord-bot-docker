@@ -1,8 +1,8 @@
-const discord = require("discord.js"); //implements discord.js dependency
-const bot = new discord.Client(); //adds the bot
+const { Client } = require("discord.js"); //implements discord.js dependency
 // const config = require("./config.js"); //bot prefix and token
 const { token } = require("./config.js");   //bot token
 const { prefix } = require("./config.js");  //prefix
+const bot = new Client(); //adds the bot
 
 console.log(token);
 console.log(prefix);
@@ -41,3 +41,5 @@ bot.on("message", message => {
 
     }
 });
+
+bot.login(token);
