@@ -28,7 +28,7 @@ To do that you simply need to map the directory /usr/src/bot to a directory on y
 ```
 -v /path/to/local/directory:/usr/src/bot
 ```
-But remember, in order to apply the changes you need to restart the container with 
+But remember, in order to apply the changes you need to restart the container with:
 ```
 docker restart "name_of_container"
 ```
