@@ -1,4 +1,4 @@
-# Dicord-bot-docker
+# Discord-bot-docker
 
 A pre-made cozy container for your bot
 
