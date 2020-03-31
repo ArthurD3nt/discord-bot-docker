@@ -11,7 +11,7 @@ docker run arthurd3nt/discord-bot
 ## Environment variables
 
 ### token 
-! The token is required in order to run the container without it, the container will fail to run
+! The token is required in order to run the container
 ```
 -e token="your_bot_token" 
 ```
