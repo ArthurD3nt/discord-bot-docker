@@ -1,3 +1,5 @@
+![CI](https://github.com/ArthurD3nt/discord-bot-docker/workflows/CI/badge.svg)
+
 # Discord-bot-docker
 
 A pre-made cozy container for your bot
