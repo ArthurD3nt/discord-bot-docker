@@ -8,7 +8,7 @@ A pre-made cozy container for your bot
 
 All you need to do is run:
 ``` bash
-docker run arthurd3nt/discord-bot
+docker run arthurd3nt/discord-bot -e token=<"token"> -e prefix=<"your frefix">
 ```
 ## Environment variables
 
@@ -19,7 +19,7 @@ docker run arthurd3nt/discord-bot
 ```
 
 ### prefix
-You can add the prefix you want and it's not necessary for you to specify it, by default the prefix is !
+You can add the prefix you want and it's not necessary for you to specify it, by default, the prefix is !
 ``` bash
 -e prefix="your_favorite_prefix" 
 ```
