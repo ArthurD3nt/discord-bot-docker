@@ -1,4 +1,4 @@
-![CI](https://github.com/ArthurD3nt/discord-bot-docker/workflows/CI/badge.svg)
+![master](https://github.com/ArthurD3nt/discord-bot-docker/workflows/master/badge.svg)
 
 # Discord-bot-docker
 
